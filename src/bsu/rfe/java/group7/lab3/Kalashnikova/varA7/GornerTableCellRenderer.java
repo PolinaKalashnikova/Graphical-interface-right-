@@ -54,6 +54,7 @@ public class GornerTableCellRenderer implements TableCellRenderer {
 // Иначе - в обычный белый
             panel.setBackground(Color.WHITE);
         }
+
         return panel;
     }
     public void setNeedle(String needle) {
